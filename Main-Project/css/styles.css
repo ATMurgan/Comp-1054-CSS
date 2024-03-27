@@ -1,0 +1,99 @@
+/* General Styling */
+html{scroll-behavior: smooth;}
+body{margin: 0px; color: #f8f8f8;}
+h1,h2,h3,h4,h5,h6{font-family: 'Montserrat Alternates',sans-serif;}
+p,a,li,td{font-family: 'Raleway',"Sans Serif Collection"; font-size: 1.2em;}
+
+/* Main Page Styling */
+header{
+    align-items: center;
+    height: 125px;
+    padding: 5px;
+    background-color: #070A0C;
+    border: 0.1em solid #C876FF;
+    display: flex;
+}
+header div{
+    flex-grow: 1;
+    width: auto;
+    height: 105px;
+}
+ header img{
+    width: auto;
+    height: 240%;
+    margin-left: 5em; 
+    margin-top: -4em;
+}
+header menu{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+header li{
+    padding: 0px 10px;
+    margin-right: 5em;
+}
+header li a{
+    color: #f8f8f8;
+    text-decoration: none;
+    transition: all .25s linear;
+}
+menu{
+    display: flex;
+}
+
+#row-1{
+    height: 520px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-image:
+        url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0.1em solid #C876FF;
+}
+
+#row-1 div:nth-child(1){
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#row-1 img{
+    width: 50%;
+    height: 100%;
+    margin-left: 20em;
+}
+
+#row-2{
+    height: 520px;
+    border-left: 0.1em solid #C876FF;
+    border-right: 0.1em solid #C876FF;
+    background: rgb(3,0,54);
+    background-image: linear-gradient(to left bottom, #30024f, #2e0349, #2c0443, #2a053d, #270637);
+}
+
+#row-3{
+    height: 520px;
+    background:#30024f;
+    border-left: 0.1em solid #C876FF;
+    border-right: 0.1em solid #C876FF;
+}
+
+#row-4{
+    height: 500px;
+    background-image: url("../img/blue-mountain.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-left: 0.1em solid #C876FF;
+    border-right: 0.1em solid #C876FF;
+}
+
+footer{
+    height: 200px;
+    background-color: #070A0C;
+    border-bottom: 0.1em solid #C876FF;
+    border-left: 0.1em solid #C876FF;
+    border-right: 0.1em solid #C876FF;
+}
