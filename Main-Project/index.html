@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/styles.css"> 
     <!-- ass JS--> 
     <script src="./js/op.js"></script>
+    <!-- Adding icons-->
+    <script src="https://kit.fontawesome.com/45de6279a6.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/Hasty PC Logo Black with Glow (1).png" type="image/x-icon">
 
   </head>
@@ -17,12 +19,13 @@
         <div>
             <img src="./img/Hasty PC Logo Black with Glow (1).png" alt="header logo">
         </div>
+      
         <nav>
             <menu>
-              <li><a href="#row-1">Home Page</a></li>
-              <li><a href="#row-2">Product Page</a></li>
-              <li><a href="#row-3">About us</a></li>
-              <li><a href="#row-4">Contact us</a></li>
+              <li><a href="index.html">Home Page</a></li>
+              <li><a href="product.html">Product Page</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="contact.html">Contact us</a></li>
             </menu>
         </nav>
     </header>
@@ -30,26 +33,60 @@
     <main>
         <section id="row-1">
             <div>
-
+                <p>Cheap <br> Reliable <br> Straight To Your Door</p>
+                <button id="shopNow" onclick="window.location.href='product.html'">Shop Now</button>
             </div>
             <img src="./img/pc.png" alt="pc picture">
         </section>
 
         <section id="row-2">
-            <div>
+            <div id="large-div1">
+                <p>Elevate Your Gaming</p>
+                <p><strong>Powerful Performance PCs</strong></p>
+                <p>Build Your Dream</p>
+                <button id="shopNow" onclick="window.location.href='product.html'">Shop Now</button>
+            </div>
+            
+            <div id="small-div1">
+                <img src="./img/laptop.png" alt="gaming laptop">
+                <div>
+                    <h3>Buy Now</h3>
+                    <button id="shopNow" onclick="window.location.href='product.html'">Shop Now</button>
+                </div>
+            </div>
+        
+            
+            <div id="small-div2">
+                <img src="./img/ram.webp" alt="two ram sticks">
+                <div>
+                    <h3>Buy Now</h3>
+                    <button id="shopNow" onclick="window.location.href='product.html'">Shop Now</button>
+                </div>
 
+            </div>
+            <div id="large-div2">
+                <p>Ready To Ship</p>
+                <p><strong>PreBuilt Gaming PCs</strong></p>
+                <p>Limited Supply</p>
+                <button id="shopNow" onclick="window.location.href='product.html'">Shop Now</button>
             </div>
         </section>
 
         <section id="row-3">
-            <div>
+                <h3>Powerful Performance</h3>
+                <h3>Customization Options</h3>
+                <h3>Expert Support</h3>
 
-            </div>
+                <p>Explore our range of cutting-edge processors and graphics cards to build your dream gaming rig. Elevate your gaming experience with top-tier performance and seamless gameplay</p>
+
+                <p>Personalize every aspect of your PC build with our extensive selection of components. From RGB lighting to liquid cooling solutions, unleash your creativity and build a system that reflects your style and preferences</p>
+
+                <p>Our team of experts is here to assist you at every step of the way. From component selection to troubleshooting, we're committed to ensuring your build is a success</p>
         </section>
 
         <section id="row-4">
             <div>
-
+                <button id="contactUs" onclick="window.location.href='contact.html'">Contact Us</button>
             </div>
 
         </section>
@@ -57,8 +94,24 @@
 
     <footer>
         <div>
-
+            <img src="./img/Hasty PC Logo Black with Glow (1).png" alt="header logo">
         </div>
+        <div>
+            <p><a href="index.html">HastyPC Home</a></p>
+            <p><a href="product.html">Gaming PCs</a></p>
+            <p><a href="about.html">About us</a></p>
+            <p><a href="contact.html">Contact us</a></p>
+        </div>
+        <div>
+            <p>S<br>o<br> c<br> i<br> a<br> l<br> s</p>
+        </div>
+        <div class="socials">
+            <i class="fa-brands fa-instagram fa-2xl" style="color: #df0ca7;"></i>
+            <i class="fa-brands fa-youtube fa-2xl" style="color: #cf0725;"></i>
+            <i class="fa-brands fa-twitter fa-2xl" style="color: #74C0FC;"></i>
+            <i class="fa-brands fa-tiktok  fa-2xl" style="color: #8b1fb2;"></i>
+        </div>
+        
     </footer>
   </body>
 </html>
